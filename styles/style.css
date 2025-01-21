@@ -103,6 +103,119 @@
         font-weight: 600;
 }
 
+
+/* Curriculum Section */
+
+.curriculum_section{
+    background-image: url(../assets/bg.png);
+    margin-top: 60px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.curriculum_h2{
+    font-size: 46px;
+    font-weight: bold;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.curriculum_card{
+    display: flex;
+    gap: 29px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.card_wh{
+    width: 368px;
+    height: 477px;
+    border: 1px solid #DEF5FF;
+    border-radius: 19px;
+    text-align: center;
+}
+
+.card_one{
+    background: linear-gradient(to bottom, #DEF5FF  , white 50%);
+}
+
+.card_two{
+    background: linear-gradient(to bottom, #FFF4DC , white 50%);
+}
+.card_three{
+    background: linear-gradient(to bottom, #F2E8FF , white 50%);
+}
+
+.card_one, .card_two, .card_three, img {
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+.card_h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.card_p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.card_one_a{
+    color: #01ACFD;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card_two_a{
+    color: #FEA301;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card_three_a{
+    color: #5D58EF;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.arrow_button{
+    text-align: center;
+}
+
+.btn_1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FEA301;
+    border: none;
+    margin-right: 15px;
+}
+.btn_i{
+    font-size: 24px;
+    color: white;
+}
+
+.btn_1:hover{
+    background-color: #05D4DF;
+    transition: 1s;
+}
+.btn_i:hover{
+    color: #111111;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
 /* Resposive part */
 
 @media screen  and (max-width: 576px){
@@ -140,6 +253,17 @@
     .banner_content{
         text-align: center;
     }
+
+    /* Curriculum  */
+
+    .curriculum_card{
+        flex-direction: column;
+    }
+
+    .arrow_button{
+        display: none;
+    }
+    
 
     
 }
