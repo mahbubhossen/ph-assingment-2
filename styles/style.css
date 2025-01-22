@@ -216,7 +216,6 @@ img {
 .stories_section {
   padding-left: 140px;
   padding-right: 140px;
-  margin-bottom: 60px;
   background: linear-gradient(
       to top,
       rgba(255, 230, 185, 0.8) 50%,
@@ -305,6 +304,63 @@ img {
 .btn_div {
   text-align: center;
 }
+
+/* Footer */
+
+.footer_section{
+  padding-top: 120px;
+  padding-bottom: 170px;
+  padding-left: 140px;
+  padding-right: 140px;
+  background-color: #01acfd;
+  display: flex;
+  gap: 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_image{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+}
+.footer_content_one  h1 , p{
+  color: white;
+}
+
+.footer_content_one h1{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.footer_content_one p{
+  margin-top: 35px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer_content_two h4, a{
+  color: white;
+}
+
+.footer_content_two h4{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.footer_content_two p{
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 20px;
+}
+
+.footer_content_three h4{
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+
 
 /* Resposive part */
 
@@ -402,4 +458,18 @@ img {
     font-size: 16px;
     padding: 8px 40px;
   }
+
+  /* footer */
+
+  .footer_section{
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 12px;
+  padding-bottom: 17px;
+  padding-left: 14px;
+  padding-right: 14px;
+  align-items: flex-start;
+
+  }
+
 }
